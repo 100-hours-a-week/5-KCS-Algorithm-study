@@ -6,7 +6,7 @@ input = sys.stdin.readline
 n, k = map(int, input().split())
 stuff = [[0, 0]]
 #dp
-knapsack = [[0 for _ in range(k + 1)] for _ in range(n + 1)]`
+knapsack = [[0 for _ in range(k + 1)] for _ in range(n + 1)]
 
 for _ in range(n):
     stuff.append(list(map(int, input().split())))
